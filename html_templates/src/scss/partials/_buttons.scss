@@ -1,0 +1,134 @@
+.btn {
+  outline: none;
+  box-shadow: none;
+  display: inline-block;
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+  }
+  &--burger {
+    display: none;
+    width: 40px;
+    height: 26px;
+    color: $color-2;
+    position: relative;
+    span,
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      border-radius: 3px;
+      position: absolute;
+      left: 0;
+      transform-origin: 50% 50%;
+      background-color: currentColor;
+      transition: all .3s ease-in-out;
+    }
+    &:before {
+      top: 0;
+    }
+    span {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    &:after {
+      top: 100%;
+      transform: translate(0, -100%);
+    }
+    &:hover {
+      color: $color-2;
+    }
+    &.active {
+      color: $color-3;
+      span {
+        opacity: 0;
+      }
+      &:before {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(135deg);
+      }
+      &:after {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(225deg);
+      }
+    }
+  }
+  &--default {
+    border: 2px solid $color-3;
+    background-color: transparent;
+    border-radius: 30px;
+    color: $color-2;
+    font-size: 1.25rem;
+    padding: 12px 20px;
+    font-family: $f-roboto-bold;
+    text-align: center;
+    & + .btn--default {
+      margin-left: 2rem;
+      @media sceen and (max-width: 992px) {
+        margin-left: 0;
+        font-size: 1.9rem;
+      }
+    }
+    &:hover {
+      color: $color-3;
+    }
+  }
+  &--default-details {
+    border: 2px solid $color-3;
+    background-color: $color-3;
+    border-radius: 30px;
+    color: $color-2;
+    font-size: 1.25rem;
+    padding: 12px 20px;
+    font-family: $f-roboto-bold;
+    text-align: center;
+    max-width: 257px;
+    margin-bottom: 53px;
+    &:hover {
+      color: $color-2;
+    }
+  }
+  &--default-intro-baner {
+    border: 2px solid $color-3;
+    background-color: transparent;
+    border-radius: 30px;
+    color: $color-2;
+    font-size: 1.25rem;
+    padding: 12px 20px;
+    font-family: $f-roboto-bold;
+    text-align: center;
+    max-width: 257px;
+    margin-top: 55px;
+    &:hover {
+      color: $color-3;
+    }
+  }
+
+  &--down {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid $color-2;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-1;
+  }
+}
+
+.mobile-baner__btn:hover{
+color: #fff;
+}
+.default-btn-margin-top {
+  margin-top: 20px;
+}
+

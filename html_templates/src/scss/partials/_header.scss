@@ -1,0 +1,75 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color-1, .4);
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 8888;
+  transition: all .3s ease-in-out;
+
+  &.active {
+    background-color: rgba($color-1, .9);
+  }
+  &.is_stuck {
+    background-color: rgba($color-1, 1);
+  
+    &:after {
+      opacity: 0;
+    }
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 277px;
+    height: 280px;
+    background-image: url('../img/Header_Palme@2x.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+  }
+  .logo {
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .main-nav {
+    position: relative;
+    z-index: 300;
+  }
+  .basket {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/shopping-cart.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    .items-count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+      border-radius: 50%;
+      background-color: #76b52f;
+      position: absolute;
+      bottom: -7px;
+      right: -7px;
+    }
+  }
+}

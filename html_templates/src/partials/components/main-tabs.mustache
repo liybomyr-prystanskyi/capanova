@@ -1,0 +1,63 @@
+{{#main-tabs}}
+<div class="main-tabs">
+  <nav>
+    <div class="main-tabs__block nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="main-tabs__block__btn  nav-item nav-link active" id="nav-main-tab" data-toggle="tab" href="#nav-new-tab"
+        role="tab" aria-controls="nav-new-tab" aria-selected="false">Anwendung</a>
+      <a class="main-tabs__block__btn  nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home"
+        role="tab" aria-controls="nav-home" aria-selected="true">Das spricht für Green Grooming Paste</a>
+      <a class="main-tabs__block__btn  nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+        role="tab" aria-controls="nav-profile" aria-selected="false">Inhaltsstoffe</a>
+    </div>
+  </nav>
+
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="row">
+        <div class="col-12 specifics-list">
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velitd</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="row">
+        <div class="col-12">
+          {{> ingredients }}
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade " id="nav-new-tab" role="tabpanel" aria-labelledby="nav-main-tab">
+      <div class="row">
+        <div class="col-12 specifics-list">
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velitd</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{{/main-tabs}}

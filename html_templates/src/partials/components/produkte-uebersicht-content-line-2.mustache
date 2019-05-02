@@ -1,0 +1,25 @@
+{{#produkte-uebersicht-content-line-2}}
+<section class="content-line {{#content-line--padding-top-none}}content-line--padding-top-none{{/content-line--padding-top-none}}">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+        {{> unsere-produkte }}
+      </div>
+    </div>
+    <div class="pb-5 row justify-content-between {{ row-additional-classes }}">
+      <div class="col-12">
+        <div class="carousel" data-carousel-speed="5000">
+          {{#slides}}
+          <div class="carousel__slide">
+            {{> teaser-3 }}
+          </div>
+          {{/slides}}
+        </div>
+      </div>
+    </div>
+    {{#devider}}
+    <div class="devider {{#devider--pbottom}}devider--pbottom{{/devider--pbottom}}"></div>
+    {{/devider}}
+  </div>
+</section>
+{{/produkte-uebersicht-content-line-2}}

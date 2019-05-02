@@ -1,0 +1,34 @@
+{{#list-info}}
+<div class="list-info">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-9">
+      <ul>
+        <li> Perfektes Stylingergebnis, stark bis zum Abend </li>
+        <li> All-in-one Styling + Pflege für die tägliche Anwendung </li>
+        <li> Beste Rohstoffe ohne Chemie </li>
+        <li>
+          <a href="#">NaTrue</a>
+          -Zertifizierung
+        </li>
+      </ul>
+      <ul>
+        <li>Anti-Haarausfall</li>
+        <li>Anti-Ergrauen</li>
+        <li>Haarwachstum anregend</li>
+      </ul>
+    </div>
+    {{#image-list}}
+    <div class="col-12 col-lg-3">
+      {{#image-list}}
+      <img src="{{{image-list}}}" srcset="{{{srcset}}}" alt="natrue">
+      {{/image-list}}
+    </div>
+    {{/image-list}}
+
+    {{> list-info-btns}}
+  </div>
+</div>
+{{#devider}}
+<div class="devider"></div>
+{{/devider}}
+{{/list-info}}

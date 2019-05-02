@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolationsmodus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 108 108" style="enable-background:new 0 0 108 108;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#202020;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#97BF3A;}
+</style>
+<g id="XMLID_17661_">
+	
+		<ellipse id="XMLID_17665_" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -22.374 54.0156)" class="st0" cx="54" cy="54" rx="52.5" ry="52.5"/>
+	<g id="XMLID_17662_">
+		<polyline id="XMLID_17664_" class="st0" points="31.8,60.9 54,83.1 76.3,60.9 		"/>
+		<line id="XMLID_17663_" class="st0" x1="54" y1="83.1" x2="54" y2="24.9"/>
+	</g>
+	<g>
+		<path class="st1" d="M54,5.8C27.4,5.8,5.8,27.4,5.8,54s21.6,48.2,48.2,48.2s48.2-21.6,48.2-48.2S80.6,5.8,54,5.8z M54,96.3
+			c-23.3,0-42.3-19-42.3-42.3c0-23.3,19-42.3,42.3-42.3c23.3,0,42.3,19,42.3,42.3C96.3,77.3,77.3,96.3,54,96.3z"/>
+	</g>
+</g>
+</svg>

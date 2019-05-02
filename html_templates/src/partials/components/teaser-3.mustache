@@ -1,0 +1,34 @@
+{{#teaser-1}}
+<div class="teaser teaser--1 {{#teaser--teaser-title}}teaser--teaser-title{{/teaser--teaser-title}}">
+
+  <a href="#" class="teaser--1__thumbnail" data-mh="teaser--1__thumbnail">
+    <div>
+      <img src="{{{img}}}" alt="{{{image-alt}}}" srcset="{{{srcset}}}" class="img-responsive">
+    </div>
+  </a>
+
+  <div class="teaser--1__title">
+    {{#title}}
+    <h4>
+      <a href="#" class="h4">{{{title}}}</a>
+    </h4>
+    {{/title}}
+
+    {{#type}}
+    <span>{{{type}}}</span>
+    {{/type}}
+  </div>
+
+
+  {{#description}}
+  <div class="teaser--1__desc">
+    <p>{{{description}}}</p>
+  </div>
+  {{/description}}
+
+  {{#more-link}}
+  <a href="#" class="link link--more">{{{href}}}</a>
+  {{/more-link}}
+
+</div>
+{{/teaser-1}}

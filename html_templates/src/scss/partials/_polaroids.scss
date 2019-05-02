@@ -1,0 +1,28 @@
+.polaroids {
+  &__block--1 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $color-2;
+    }
+    position: relative;
+    .polaroid-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 333px;
+      transform: translate(40%, -80%);
+    }
+  }
+  &__block {
+    &+.polaroids__block {
+      margin-top: 2rem;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+}

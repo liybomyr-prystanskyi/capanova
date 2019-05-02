@@ -1,0 +1,42 @@
+{{#overview-pricing-block}}
+<div class="pricing-block">
+  {{#span}}
+  <div class="text-left mb-5 mb-lg-3">
+    <span>{{{span}}}</span>
+  </div>
+  {{/span}}
+
+  {{#description}}
+  <p>{{{description}}}</p>
+  {{/description}}
+
+  <div class="pricing-block__sending flex-column">
+    <div class="d-flex align-items-end">
+      {{#price}}
+      <h4>{{{price}}}</h4>
+      {{/price}}
+      {{#roominess}}
+      <p>{{{roominess}}}</p>
+      {{/roominess}}
+    </div>
+
+    <div class="price-description">
+      {{#text-after-pricing}}
+      <p>{{{text}}}</p>
+      {{/text-after-pricing}}
+    </div>
+
+    <div class="mt-3 product-overview-buttons">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6">
+          <a href="#" class="btn btn--default">Mehr erfahren</a>
+        </div>
+        <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+          <a href="#" class="btn btn--default-details">In den Warenkorb</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+{{/overview-pricing-block}}

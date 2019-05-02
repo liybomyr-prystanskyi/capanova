@@ -1,0 +1,57 @@
+.counter {
+	display: block;
+	font-size: 0;
+	&__ctrl {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		vertical-align: top;
+		background-color: transparent;
+		border: 1px solid #fff;
+		font-family: $f-roboto-bold;
+		height: 58px;
+		width: 58px;
+		text-align: center;
+		font-size: 2rem;
+		transition: all .3s ease-in-out;
+		&--less {
+			border-right: none;
+			border-top-left-radius: 50%;
+			border-bottom-left-radius: 50%;
+		}
+		&--more {
+			border-left: none;
+			border-top-right-radius: 50%;
+			border-bottom-right-radius: 50%;
+		}
+		&:hover {
+			background-color: #76b52f;
+			color: #fff;
+		}
+	}
+	input {
+		display: inline-block;
+		vertical-align: top;
+		background-color: transparent;
+		border: 1px solid #fff;
+		font-family: $f-roboto-bold;
+		height: 58px;
+		text-align: center;
+		width: calc(100% - 165px);
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.counter {
+		&__ctrl, input {
+			height: 50px;
+		}
+		&__ctrl {
+			width: 50px;
+		}
+		input {
+			width: calc(100% - 100px);
+		}
+	}
+} 

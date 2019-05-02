@@ -1,0 +1,38 @@
+{{#baner}}
+<section class="baner {{#baner--margin-bottom}}baner--margin-bottom{{/baner--margin-bottom}}" style="background-image:url('{{{bg-image}}}');">
+  {{#baner-data}}
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="col-12 col-lg-10 h-auto">
+        
+        <h1>
+          {{#title1}}
+          <span class="d-block">{{{title1}}}</span> <br>
+          {{/title1}}
+          {{#title3}}
+          <span class="d-block text-right">{{{title2}}}
+            <span class="green-title text-uppercase">{{{title3}}}</span>
+          </span><br>
+          {{/title3}}
+          {{#title4}}
+          <span class="d-block text-center">{{{title4}}}</span>
+          {{/title4}}
+        </h1>
+
+        {{#href}}
+        <a href="#" class="btn btn--default-details">{{{href}}}</a>
+        {{/href}}
+
+      </div>
+
+      {{#btn-down}}
+      <a href="#" class="btn btn--down text-center scrollTo">
+        <img src="img/btn-down.png" alt="down">
+      </a>
+      {{/btn-down}}
+
+    </div>
+  </div>
+  {{/baner-data}}
+</section>
+{{/baner}}

@@ -1,0 +1,12 @@
+.title-and-image {
+  h1 {
+    color: $color-2;
+    font-size: 3.125rem;
+    font-family: $f-roboto-bold;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    position: relative;
+  }
+}

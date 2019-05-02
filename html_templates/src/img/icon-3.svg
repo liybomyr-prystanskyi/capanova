@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolationsmodus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 123.5 119.6" style="enable-background:new 0 0 123.5 119.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#202020;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#202020;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#97BF3A;}
+</style>
+<g>
+	<polyline class="st0" points="122,42.1 61.8,72.9 1.5,42.1 	"/>
+	<path class="st0" d="M122,42.1L61.8,1.8L1.5,42.1v72.5c0,1.9,1.6,3.5,3.5,3.5h113.5c1.9,0,3.5-1.6,3.5-3.5V42.1z"/>
+	<g>
+		<path class="st1" d="M43.5,73.9l15,7.7c1,0.5,2.1,0.8,3.2,0.8c1.1,0,2.2-0.3,3.2-0.8l15-7.7"/>
+	</g>
+	<polyline class="st0" points="92.6,57.1 92.6,34.1 30.9,34.1 30.9,57.1 	"/>
+	<line class="st0" x1="44.3" y1="45.2" x2="79.2" y2="45.2"/>
+	<line class="st0" x1="44.3" y1="54.4" x2="79.2" y2="54.4"/>
+	<path class="st2" d="M116.3,112.4c0-6,0-12,0-18c-35.9,8.6-73.2,8.6-109.1,0c0,6,0,12,0,18C43.6,112.4,80,112.4,116.3,112.4z"/>
+</g>
+</svg>

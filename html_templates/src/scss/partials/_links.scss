@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+  &.link {
+    display: inline-block;
+    &--more {
+      color: $color-3;
+      font-family: $f-roboto-bold;
+      line-height: 1.25rem;
+      &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 0.8125rem;
+        height: 1.25rem;
+        background-image: url('../img/green-arrow-right.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: contain;
+        margin-right: 0.625rem;
+        position: relative;
+        left: 0;
+        top: -1px;
+        transition: all .3s ease-in-out;
+      }
+      &:hover {
+        color: $color-3;
+        &:before {
+          left: 0.25rem;
+        }
+      }
+    }
+  }
+  &.sending-info-url {
+    color: $color-3;
+    text-decoration: underline;
+    padding-top: 10px;
+  }
+}

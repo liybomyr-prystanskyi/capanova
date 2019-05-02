@@ -1,0 +1,27 @@
+.specifics-list {
+  height: auto;
+  ul {
+    max-width: 49%;
+    display: inline-block;
+    li {
+      padding-left: 33px;
+      position: relative;
+      margin-bottom: 30px;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 17px;
+        height: 25px;
+        background: url('../img/Produkte_BulletPoint.png');
+      }
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+      & + ul {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

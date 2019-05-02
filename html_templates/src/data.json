@@ -1,0 +1,825 @@
+{
+  "p-home": {
+    "head": {
+      "title": "Home"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home",
+            "active": true
+          },
+          {
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide",
+            "dropdown-arrow": true,
+            "sub-menu": {
+              "sub-menu-items": [
+                {
+                  "class": "current-menu-item",
+                  "sub-link": "Grooming Tipps Style"
+                },
+                {
+                  "sub-link": "Grooming Tipps Pflege"
+                }
+              ]
+            }
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "intro-baner": {
+      "bg-image": "img/startseite-header.jpg",
+      "btn-down": true,
+      "href": "Mehr zu den Produkten",
+      "mobile-background-image": "mobile-background-image"
+    },
+    "home-content-line-1": {
+      "bg-palms--pt-0": true,
+      "title-and-text": {
+        "title": "Die Produkte",
+        "subtitle": "Ein echter Gentlemen pflegt sein Haar wie sein bestes Accessoire.</br> Das bedeutet: nur die besten Inhaltsstoffe.",
+        "description": "Damit das tägliche Haarstyling nicht nur verschönert, sondern auch in der Tiefe pflegt, haben wir CAPANOVA entwickelt. Das nährstoffreichste und natürlichste Menstyling aller Zeiten."
+      },
+      "list-info": true
+    },
+    "home-content-line-3": {
+      "content-line--padding-top-none": true,
+      "devider": true,
+      "teasers-cols": [
+        {
+          "teaser-2": {
+            "bg-image": "img/rohstoffe-teaser@2x.jpg",
+            "title-1": "Alles über unsere",
+            "title-2": "Rohstoffe"
+          }
+        },
+        {
+          "teaser-2": {
+            "bg-image": "img/tipps-teaser@2x.jpg",
+            "title-1": "CAPANOVA",
+            "title-2": "Tipps & Styles"
+          }
+        }
+      ]
+    },
+    "produkte-uebersicht-content-line-2": {
+      "unsere-produkte": {
+        "title": "Unsere Produkte haben Stil. Genau wie du.",
+        "subtitle": "Entdecke die Welt von CAPANOVA und erfinde Männer-Hairstyling neu."
+      },
+      "slides": [
+        {
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_Paste.png",
+            "srcset": "img/ProdukteUebersicht_Paste.png 1x, img/ProdukteUebersicht_Paste@2x.png 2x ",
+            "image-alt": "paste",
+            "title": "Green Grooming Paste",
+            "type": "brilliant shine, 200ml",
+            "description": "Für alle, die glänzende Auftritte lieben. Unsere Styling-Paste mit schimmernden Effekten. Verleiht dem Haar Glanz und Struktur bis zum Abend.",
+            "more-link": {
+              "href": "Mehr zum Produkt"
+            }
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_Clay.png",
+            "srcset": "img/ProdukteUebersicht_Clay.png 1x, img/ProdukteUebersicht_Clay@2x.png 2x ",
+            "image-alt": "paste",
+            "title": "Green Grooming Clay",
+            "type": "smooth matt, 200ml",
+            "description": "Nix für matte Tage... oder vielleicht doch? Unser Styling-Gel im Matt-Look stylt Haare, ohne aufzufallen. Starker Halt für perfekte Modellage und Struktur von morgens bis abends.",
+            "more-link": {
+              "href": "Mehr zum Produkt"
+            }
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_Spray.png",
+            "srcset": "img/ProdukteUebersicht_Spray.png 1x, img/ProdukteUebersicht_Spray@2x.png 2x ",
+            "image-alt": "paste",
+            "title": "Green Grooming Finishing Spray",
+            "type": "brilliant shine, 175ml",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+            "more-link": {
+              "href": "Mehr zum Produkt"
+            }
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_LeaveIn.png",
+            "srcset": "img/ProdukteUebersicht_LeaveIn.png 1x, img/ProdukteUebersicht_LeaveIn@2x.png 2x",
+            "image-alt": "paste",
+            "title": "Green Grooming 3-IN-1 Leave-In",
+            "type": "smooth matt, xxxml",
+            "description": "Leave me alone? Nicht mit uns! Denn erst recht an einem richtigen Bad Hair Day sorgt unser Leave-In für Regenerierung und tiefe Pflege. Ideal für die tägliche Anwendung für extra gesundes Haar.",
+            "more-link": {
+              "href": "Mehr zum Produkt"
+            }
+          }
+        }
+      ]
+    },
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "baner-2": {
+      "baner--2--margin-bottom-less": true,
+      "href": "Zur Geschichte",
+      "bg-image": "img/Mission_Header@2x.jpg",
+      "title1": "Die Geschichte",
+      "title2": "von",
+      "title3": "capanova",
+      "title4": "beginnt in Peru."
+    },
+    "footer": true
+  },
+  "p-produkte-uebersicht": {
+    "head": {
+      "title": "Produkte Uebersicht"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "active": true,
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "produkte-uebersicht-content-line-1": {
+      "devider": true,
+      "title-and-text": {
+        "title": "Die Produkte",
+        "subtitle": "Ein echter Gentlemen pflegt sein Haar wie sein bestes Accessoire.</br> Das bedeutet: nur die besten Inhaltsstoffe.",
+        "description": "Damit das tägliche Haarstyling nicht nur verschönert, sondern auch in der Tiefe pflegt, haben wir CAPANOVA entwickelt. Das nährstoffreichste und natürlichste Menstyling aller Zeiten."
+      },
+      "list-info": {
+        "image-list": "img/ProdukteUebersicht_Icon_Natrue.png",
+        "srcset": "img/ProdukteUebersicht_Icon_Natrue.png 1x ,img/ProdukteUebersicht_Icon_Natrue@2x.png 2x",
+        "list-info-btns": {
+          "btn-1": "Mehr zu den Rohstoffen",
+          "btn-2": "Zum Hairstyle Guide"
+        }
+      }
+    },
+    "produkte-overview-content-line-1": [
+      {
+        "produkt-img": {
+          "image": "img/Produkte_Detail_Paste.png",
+          "srcset": "img/Produkte_Detail_Paste.png 1x, img/Produkte_Detail_Paste@2x.png 2x",
+          "image-alt": "paste"
+        },
+        "main-title": {
+          "title": "Green Grooming Paste"
+        },
+        "overview-pricing-block": {
+          "price": "9,95 EUR",
+          "span": "brilliant shine, 200ml",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "roominess": "pro 70ml",
+          "text-after-pricing": [
+            {
+              "text": "Lorem ipsum dolor sit"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet consectetur"
+            }
+          ]
+        },
+        "devider": true        
+      },
+      {
+        "reverse": true,
+        "produkt-img": {
+          "image": "img/ProdukteUebersicht_Clay.png",
+          "srcset": "img/ProdukteUebersicht_Clay.png 1x, img/ProdukteUebersicht_Clay@2x.png 2x",
+          "image-alt": "product alt"
+        },
+        "main-title": {
+          "title": "Product title"
+        },
+        "overview-pricing-block": {
+          "price": "9,95 EUR",
+          "span": "brilliant shine, 200ml",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "roominess": "pro 70ml",
+          "text-after-pricing": [
+            {
+              "text": "Lorem ipsum dolor sit"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet consectetur"
+            }
+          ]
+        },
+        "devider": true       
+      },
+      {
+        "produkt-img": {
+          "image": "img/ProdukteUebersicht_Spray.png",
+          "srcset": "img/ProdukteUebersicht_Spray.png 1x, img/ProdukteUebersicht_Spray@2x.png 2x",
+          "image-alt": "product alt"
+        },
+        "main-title": {
+          "title": "Product title"
+        },
+        "overview-pricing-block": {
+          "price": "9,95 EUR",
+          "span": "brilliant shine, 200ml",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "roominess": "pro 70ml",
+          "text-after-pricing": [
+            {
+              "text": "Lorem ipsum dolor sit"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet consectetur"
+            }
+          ]
+        },
+        "devider": true
+      },
+      {
+        "reverse": true,
+        "produkt-img": {
+          "image": "img/ProdukteUebersicht_LeaveIn.png",
+          "srcset": "img/ProdukteUebersicht_LeaveIn.png 1x, img/ProdukteUebersicht_LeaveIn@2x.png 2x",
+          "image-alt": "product alt"
+        },
+        "main-title": {
+          "title": "Product title"
+        },
+        "overview-pricing-block": {
+          "price": "9,95 EUR",
+          "span": "brilliant shine, 200ml",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "roominess": "pro 70ml",
+          "text-after-pricing": [
+            {
+              "text": "Lorem ipsum dolor sit"
+            },
+            {
+              "text": "Lorem ipsum dolor sit amet consectetur"
+            }
+          ]
+        },
+        "devider": true       
+      }
+    ],
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "footer": true
+  },
+  "p-produkte-detail": {
+    "head": {
+      "title": "Produkte Detail"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "active": true,
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "produkte-detail-content-line-1": {
+      "content-line--padding-top-none": true,
+      "main-title": {
+        "title": "Green Grooming Paste"
+      },
+      "title-and-text": {
+        "title-and-text--less-margins": true,
+        "span": "brilliant shine, 200ml",
+        "price": "9,95 EUR",
+        "href": "In den Warenkorb",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "produkt-img": {
+        "image": "img/Produkte_Detail_Paste.png",
+        "srcset": "img/Produkte_Detail_Paste.png 1x, img/Produkte_Detail_Paste@2x.png 2x",
+        "image-alt": "paste"
+      },
+      "pricing-block": {
+        "href": "In den Warenkorb",
+        "price": "9,95 EUR",
+        "span": "brilliant shine, 200ml",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "roominess": "pro 70ml",
+        "text-after-pricing": [
+          {
+            "text": "Lorem ipsum dolor sit"
+          },
+          {
+            "text": "Lorem ipsum dolor sit amet consectetur"
+          }
+        ]
+      }
+    },
+    "produkte-detail-content-line-2": {
+      "devider": true,
+      "green-title-h3": {
+        "title-h3": "Das spricht für Green Grooming Paste"
+      },
+      "main-tabs": {
+        "cols": [
+          {
+            "specifics-list": [
+              {
+                "test": [
+                  {
+                    "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                  },
+                  {
+                    "link": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+                  },
+                  {
+                    "link": "Duis aute irure dolor in reprehenderit in voluptate velitd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "specifics-list": [
+              {
+                "test": [
+                  {
+                    "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                  },
+                  {
+                    "link": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+                  },
+                  {
+                    "link": "Duis aute irure dolor in reprehenderit in voluptate velit"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ingredients": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "href": "Zurück zur Übersicht"
+      }
+    },
+    "produkte-detail-content-line-3": {
+      "devider": true,
+      "green-title-h3": {
+        "title-h3": "Inhaltsstoffe"
+      },
+      "ingredients": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "href": "Zurück zur Übersicht"
+      }
+    },
+    "produkte-uebersicht-content-line-2": {
+      "devider": true,
+      "unsere-produkte": {
+        "subtitle": "Weitere Produkte"
+      },
+      "teasers-cols": [
+        {
+          "teaser--1__title--style": true,
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_Clay.png",
+            "srcset": "img/ProdukteUebersicht_Clay.png 1x, img/ProdukteUebersicht_Clay@2x.png 2x ",
+            "image-alt": "paste",
+            "title": "Green Grooming Clay",
+            "more-link": {
+              "href": "Weitere produkte"
+            }
+          }
+        },
+        {
+          "teaser--1__title--style": true,
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_Spray.png",
+            "srcset": "img/ProdukteUebersicht_Spray.png 1x, img/ProdukteUebersicht_Spray@2x.png 2x ",
+            "image-alt": "paste",
+            "title": "Green Grooming Finishing Spray",
+            "more-link": {
+              "href": "Weitere produkte"
+            }
+          }
+        },
+        {
+          "teaser--1__title--style": true,
+          "teaser-1": {
+            "img": "img/ProdukteUebersicht_LeaveIn.png",
+            "srcset": "img/ProdukteUebersicht_LeaveIn.png 1x, img/ProdukteUebersicht_LeaveIn@2x.png 2x",
+            "image-alt": "paste",
+            "title": "Green Grooming 3-IN-1 Leave-In",
+            "more-link": {
+              "href": "Weitere produkte"
+            }
+          }
+        }
+      ]
+    },
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "footer": true
+  },
+  "p-unseremission": {
+    "head": {
+      "title": "Unseremission"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "nav-link": "Produkte"
+          },
+          {
+            "active": true,
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "baner": {
+      "baner-data": true,
+      "baner--margin-bottom": true,
+      "bg-image": "img/Mission_Header@2x.jpg",
+      "title1": "Die Geschichte",
+      "title2": "von",
+      "title3": "capanova",
+      "title4": "beginnt in Peru."
+    },
+    "unseremission-content-line-1": {
+      "title": "Aber nicht bei den Rohstoffen, sondern mit einer Erkenntnis."
+    },
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "footer": true
+  },
+  "p-besterohstoffe": {
+    "head": {
+      "title": "Besterohfstoffe"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "active": true,
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "baner": {
+      "baner--margin-bottom": true,
+      "bg-image": "img/Rohstoffe_Header@2x.jpg"
+    },
+    "besterohstoffe-content-line-1": {
+      "bg-palms--pt-0": true,
+      "title-and-image": {
+        "title": "CAPANOVA ist anders. <br> Und die Rohstoffe gleich mit.",
+        "image": "img/ProdukteUebersicht_Icon_Natrue.png",
+        "srcset": "img/ProdukteUebersicht_Icon_Natrue.png 1x ,img/ProdukteUebersicht_Icon_Natrue@2x.png 2x",
+        "subtitle": "Stark. Erlesen. So natürlich wie nie.",
+        "description-2": "Wir bieten mit unseren CAPANOVA Produkten maximales Styling-Ergebnis bei maximaler Pflege für dein Haar. Und das in nur einer Anwendung. Um dieses hochgesteckte Ziel zu erreichen, arbeiten wir nur mit erlesensten Inhaltsstoffen ohne Zusätze. Denn dein Haar muss atmen, und das trotz starkem Halt. Unsere Experten mit langjähriger Erfahrung im Bereich Naturkosmetik entwickelten gemeinsam mit uns eine Rezeptur, die es in sich hat. Aber nicht alles, sondern von allem nur das Beste! Von Anfang an zertifiziert durch das Naturkosmetik-Label NaTrue sind wir stolz auf unsere Produkte, ihre Rohstoffe und das Endergebnis: stärkster Halt bis zum Abend bei maximaler Pflege, und das in nur einer Anwendung.",
+        "description": "Auch beste Rohstoffe brauchen die ideale Zusammensetzung, um perfekt zu wirken. Der Schlüssel zu echter Naturkosmetik und maximaler Pflegewirkung."
+      },
+      "besterohstoffe-info": {
+        "subtitle": "Stark. Erlesen. So natürlich wie nie.",
+        "description": "Auch beste Rohstoffe brauchen die ideale Zusammensetzung, um perfekt zu wirken. Der Schlüssel zu echter Naturkosmetik und maximaler Pflegewirkung.",
+        "description-2": "Wir bieten mit unseren CAPANOVA Produkten maximales Styling-Ergebnis bei maximaler Pflege für dein Haar. Und das in nur einer Anwendung. Um dieses hochgesteckte Ziel zu erreichen, arbeiten wir nur mit erlesensten Inhaltsstoffen ohne Zusätze. Denn dein Haar muss atmen, und das trotz starkem Halt. Unsere Experten mit langjähriger Erfahrung im Bereich Naturkosmetik entwickelten gemeinsam mit uns eine Rezeptur, die es in sich hat. Aber nicht alles, sondern von allem nur das Beste! Von Anfang an zertifiziert durch das Naturkosmetik-Label NaTrue sind wir stolz auf unsere Produkte, ihre Rohstoffe und das Endergebnis: stärkster Halt bis zum Abend bei maximaler Pflege, und das in nur einer Anwendung."
+      }
+    },
+    "produkte-uebersicht-content-line-2": {
+      "teaser--teaser-title": true,
+      "devider": true,
+      "slides": [
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Teewurzel.png",
+            "srcset": "img/Rohstoffe_Teewurzel.png 1x, img/Rohstoffe_Teewurzel@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Teewurzel"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Jojoba.png",
+            "srcset": "img/Rohstoffe_Jojoba.png 1x, img/Rohstoffe_Jojoba@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Jojoba"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Tonerde.png",
+            "srcset": "img/Rohstoffe_Tonerde.png 1x, img/Rohstoffe_Tonerde@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Tonerde"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Kamille.png",
+            "srcset": "img/Rohstoffe_Kamille.png 1x, img/Rohstoffe_Kamille@2x.png 2x",
+            "image-alt": "rohstoffe",
+            "description": "Kamille"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Teewurzel.png",
+            "srcset": "img/Rohstoffe_Teewurzel.png 1x, img/Rohstoffe_Teewurzel@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Teewurzel"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Jojoba.png",
+            "srcset": "img/Rohstoffe_Jojoba.png 1x, img/Rohstoffe_Jojoba@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Jojoba"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Tonerde.png",
+            "srcset": "img/Rohstoffe_Tonerde.png 1x, img/Rohstoffe_Tonerde@2x.png 2x ",
+            "image-alt": "rohstoffe",
+            "description": "Tonerde"
+          }
+        },
+        {
+          "teaser-1": {
+            "img": "img/Rohstoffe_Kamille.png",
+            "srcset": "img/Rohstoffe_Kamille.png 1x, img/Rohstoffe_Kamille@2x.png 2x",
+            "image-alt": "rohstoffe",
+            "description": "Kamille"
+          }
+        }
+      ]
+    },
+    "besterohstoffe-content-line-3": {
+      "default-btn-margin-top":"default-btn-margin-top",
+      "devider": true,
+      "href": "Zum Hairstyling-Guide",
+      "title": "Unser Hairstyling-Guide",
+      "subtitle": "Du brauchst Tipps & Tricks für dein Hairstyling mit CAPANOVA? In unserem Hairstyling-Guide wirst Du fündig, damit dir jedes Styling gelingt."
+    },
+    "content-line--besterohstoffe": true,
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "footer": true
+  },
+  "p-hairstyleguide": {
+    "head": {
+      "title": "Hairstyleguide"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "active": true,
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "hairstyleguide-content-line-1": {
+      "content-line--padding-bottom-none": true,
+      "title-and-text": {
+        "title": "Unser Gentleman's Guide für <br> echt gepflegte Hairstyles.",
+        "subtitle": "Tipps und Styles rundum die Verwendung von CAPANOVA."
+      }
+    },
+    "home-content-line-3": {
+      "content-line--padding-top-none": true,
+      "devider": true,
+      "teasers-cols": [
+        {
+          "teaser-2": {
+            "bg-image": "img/Guide_Style@2x.png",
+            "title-1": "Grooming Tipps",
+            "title-2": "Style"
+          }
+        },
+        {
+          "teaser-2": {
+            "teaser--2--position": true,
+            "bg-image": "img/Guide_Pflege@2x.png",
+            "title-1": "Grooming Tipps",
+            "title-2": "Pflege"
+          }
+        }
+      ]
+    },
+    "produkte-uebersicht-content-line-3": {
+      "send-title-and-text": {
+        "send-title-and-text--less-margins": true,
+        "title": "Immer informiert sein.",
+        "subtitle": "Jetzt den Newsletter bestellen.",
+        "description": "Gerne senden wir Dir den Newsletter einmal wöchentlich mit allen aktuellen Neuigkeiten, sowie den Fortschritt von CAPANOVA. Unser Newsletter, so einfach wie unser Styling."
+      },
+      "send-block": {
+        "label-info": "Bitte senden Sie mir regelmäßig Informationen per E-Mail zu. Ihren Newsletter kann ich jederzeit wieder abbestellen. Mit der Registrierung zum Newsletter bestätigen Sie unsere",
+        "href": "Datenschutzvereinbarung",
+        "btn-value": "Abschicken"
+      }
+    },
+    "footer": true
+  },
+  "p-404": {
+    "head": {
+      "title": "404"
+    },
+    "header": {
+      "main-nav": {
+        "nav-items": [
+          {
+            "nav-link": "Home"
+          },
+          {
+            "nav-link": "Produkte"
+          },
+          {
+            "nav-link": "Unsere Mission"
+          },
+          {
+            "nav-link": "beste rohstoffe"
+          },
+          {
+            "nav-link": "hairstyle guide"
+          }
+        ],
+        "social-list": {
+          "social-item": {
+            "social-type": "social social--facebook"
+          }
+        }
+      }
+    },
+    "404-content-line-1": {
+      "main-404-title": {
+        "title": " 404 - Seite nicht gefunden ...",
+        "description": "Entschuldigen Sie bitte, wir können die Seite nach der Sie suchten leider nicht finden. Haben Sie sich vielleicht vertippt? Versuchen Sie gerne auch eine anderen Variante des Suchwortes. Falls der Fehler bei uns lag, werden wir ihn schnellstens beheben. Versuchen Sie in der Zwischenzeit eine der folgenden Optionen:"
+      }
+    },
+    "footer": true
+  }
+}

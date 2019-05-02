@@ -1,0 +1,27 @@
+.list-info {
+  font-size: 0;
+  ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style: disc;
+    padding-left: 1.125rem;
+    margin-right: 2rem;
+    li {
+      a {
+        color: $color-3;
+        text-decoration: underline;
+      }
+    }
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+  }
+  .btn--default {
+    margin-right: 1.875rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

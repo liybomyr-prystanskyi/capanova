@@ -1,0 +1,85 @@
+body,
+html {
+  min-width: 320px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/Hintergrund_Struktur.jpg");
+  background-repeat: repeat;
+  overflow-y: auto;
+  overflow-x: hidden;
+  &.no-background {
+    background-image: none;
+  }
+  * {
+    font-family: $f-roboto-regular-normal;
+    color: $color-2;
+    font-size: 1.125rem;
+  }
+  .content-area {
+    h3 {
+      max-width: 760px;
+    }
+    &--with-icon-at-bg {
+      background-image: url('../img/ProdukteUebersicht_Icon_Natrue.png');
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      background-size: auto 128px;
+      @media screen and (max-width: 768px) {
+        padding-bottom: 140px;
+        background-position: 30px 100%;
+      }
+    }
+  }
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   -moz-min-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+    
+    background-image: url("../img/Hintergrund_Struktur@2x.jpg");
+  
+  }
+}
+
+form input[type=text],form input[type=tel],form input[type=email],form textarea{
+  min-height: 55px;
+  border: 2px solid #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  background-color: transparent;
+  padding: 0 30px;
+  max-width: 100%;
+  outline: none;
+  font-family: "roboto-bold";
+  font-size: 1.25rem;
+  margin: 0;
+}
+form textarea{
+  padding: 30px;
+  max-width: 470px;
+}
+@media screen and (max-width: 320px) {
+  form textarea{
+      max-width: 298px;
+  }
+}
+form span.wpcf7-form-control-wrap{
+  margin: 10px 0 0 0;
+  display: block;
+}
+form span.wpcf7-not-valid-tip{
+  margin: 0;
+}
+.title-and-text form p{
+  margin-bottom: 10px;
+
+}
+
+a:hover{
+  color: #76b52f;
+}
+form.wpcf7-form label{
+  max-width: 100%;
+}

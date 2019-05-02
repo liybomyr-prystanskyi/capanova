@@ -1,0 +1,65 @@
+.content-line {
+  padding: 3.75rem 0;
+  position: relative;
+  z-index: 300;
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 400;
+  &__background-image { 
+    position: relative;
+    img {   
+      position: relative;
+      margin-top: -110px;    
+      width: 100%;
+      height: auto;
+    } 
+  }
+  &--padding-top-none {
+    padding-top: 0;
+  }
+  &--padding-bottom-none {
+    padding-bottom: 0;
+  }
+  &--first {
+    padding-top: 5.625rem;
+  }
+  &--besterohstoffe {
+    h2 {
+      color: $color-2 !important;
+      font-family: "roboto-bold";
+      font-size: 3.125rem !important;
+    }
+    h3 {
+      color: $color-2 !important;
+      font-size: 1.5rem !important;
+    }
+
+  }
+  h3 {
+    color: #76b52f;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-family: "roboto-bold";
+  }
+  h2 {
+    color: #76b52f;
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+    font-family: "roboto-bold";
+  }
+  h4 {
+    color: $color-2;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-family: "roboto-light";
+    position: relative;
+    top: -12px;
+  }
+  &.content-line--besterohstoffe.pb-1 {
+    .devider {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

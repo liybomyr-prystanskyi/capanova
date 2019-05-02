@@ -1,0 +1,37 @@
+{{#main-nav}}
+<nav class="main-nav">
+  <ul>
+    {{#nav-items}}
+    <li {{#active}} class="current" {{/active}}>
+      <a href="#">
+        {{nav-link}}
+        {{#dropdown-arrow}}
+        <i class="arrow right"></i>
+        {{/dropdown-arrow}}
+      </a>
+      {{#sub-menu}}
+      <ul class="sub-menu">
+        {{#sub-menu-items}}
+        <li {{#class}}class="{{class}}"{{/class}}">
+          <a href="#">{{{sub-link}}}</a>
+        </li>
+        {{/sub-menu-items}}
+      </ul>
+      {{/sub-menu}}
+    </li>
+    {{/nav-items}}
+  </ul>
+  <a href="#" class="basket d-none d-lg-inline-block">
+    <span class="items-count">2</span>
+  </a>
+  {{#social-list}}
+  <ul class="social-list">
+    {{#social-item}}
+    <li class="{{social-type}}">
+      <a href="#"></a>
+    </li>
+    {{/social-item}}
+  </ul>
+  {{/social-list}}
+</nav>
+{{/main-nav}}

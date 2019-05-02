@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolationsmodus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 128.3 108.8" style="enable-background:new 0 0 128.3 108.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#97BF3A;}
+	.st1{fill:none;stroke:#202020;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#202020;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M52.7,1.2c-4-2.4-9.2-1-11.6,3L31.2,21c-1.4,2.4-1.5,5.2-0.5,7.6L44,5.8c0.9-1.5,2.6-2.5,4.4-2.5
+		c0.9,0,1.8,0.2,2.6,0.7c2.4,1.4,3.2,4.5,1.8,7L39.4,33.7c2.5-0.3,4.9-1.7,6.3-4.1l9.9-16.8C58.1,8.8,56.7,3.6,52.7,1.2z"/>
+	<path class="st0" d="M75.6,1.2c4-2.4,9.2-1,11.6,3L97.2,21c1.4,2.4,1.5,5.2,0.5,7.6L84.3,5.8c-0.9-1.5-2.6-2.5-4.4-2.5
+		c-0.9,0-1.8,0.2-2.6,0.7c-2.4,1.4-3.2,4.5-1.8,7l13.4,22.7c-2.5-0.3-4.9-1.7-6.3-4.1l-9.9-16.8C70.3,8.8,71.6,3.6,75.6,1.2z"/>
+	<path id="XMLID_13706_" class="st1" d="M97.1,37.4H123c2.1,0,3.8,1.7,3.8,3.8V52c0,2.1-1.7,3.8-3.8,3.8H5.3c-2.1,0-3.8-1.7-3.8-3.8
+		V41.2c0-2.1,1.7-3.8,3.8-3.8h25.9"/>
+	<line id="XMLID_13705_" class="st1" x1="41.5" y1="37.4" x2="86.8" y2="37.4"/>
+	<polyline id="XMLID_13704_" class="st2" points="121.8,55.8 115.7,107.3 64.2,107.3 12.6,107.3 6.5,55.8 	"/>
+	<g id="XMLID_13699_">
+		<line id="XMLID_13703_" class="st2" x1="33" y1="55.8" x2="33" y2="107.3"/>
+		<line id="XMLID_13702_" class="st2" x1="53.8" y1="55.8" x2="53.8" y2="107.3"/>
+		<line id="XMLID_13701_" class="st2" x1="74.5" y1="55.8" x2="74.5" y2="107.3"/>
+		<line id="XMLID_13700_" class="st2" x1="95.3" y1="55.8" x2="95.3" y2="107.3"/>
+	</g>
+	<g id="XMLID_13696_">
+		<line id="XMLID_13698_" class="st2" x1="8.4" y1="72.6" x2="119.9" y2="72.6"/>
+		<line id="XMLID_13697_" class="st2" x1="10.6" y1="90.5" x2="117.8" y2="90.5"/>
+	</g>
+	<line id="XMLID_13695_" class="st1" x1="101.4" y1="44.8" x2="80" y2="8.3"/>
+	<line id="XMLID_13694_" class="st1" x1="26.9" y1="44.8" x2="48.3" y2="8.3"/>
+</g>
+</svg>

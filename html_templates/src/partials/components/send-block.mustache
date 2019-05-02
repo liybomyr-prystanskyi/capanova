@@ -1,0 +1,17 @@
+{{#send-block}}
+<div class="send-block">
+  <form action="#" class="sending-form">
+    <div class="form-input d-flex">
+      <input class="form-input__email" type="email" name="mail" required placeholder="E-Mail-Adresse">
+      <input class="form-input__submit" type="submit" value="{{{btn-value}}}">
+    </div>
+    <div class="sending-info">
+      <input type="checkbox" id="squaredFour" name="agree" required/>
+      <label for="squaredFour">
+        {{{label-info}}}
+        <a class="sending-info-url" href="#">{{{href}}}</a>
+      </label>
+    </div>
+  </form>
+</div>
+{{/send-block}}

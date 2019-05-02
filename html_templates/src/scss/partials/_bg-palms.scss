@@ -1,0 +1,9 @@
+.bg-palms {
+  background-image: url('../img/blaetter-rechts@2x.png'), url('../img/blaetter-links@2x.png');
+  background-repeat: repeat-y, repeat-y;
+  background-position: 100% 0, 0 50%;
+  background-size: 200px auto, 200px auto;
+  position: relative;
+  z-index: 300;
+  padding-top: 80px;
+}

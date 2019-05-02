@@ -1,0 +1,12 @@
+.sending-info {
+  display: flex;
+  margin: 25px 0 0 0;
+  padding: 0;
+  input {
+    margin-right: 15px;
+  }
+  label {
+    color: $color-2;
+    margin: 0;
+  }
+}

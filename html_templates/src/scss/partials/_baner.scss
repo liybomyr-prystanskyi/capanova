@@ -1,0 +1,82 @@
+.baner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 600;
+  &--margin-bottom {
+    margin-bottom: -70px;
+  }
+  h2, h1 {
+    span {
+      color: $color-2;
+      font-size: 4.375rem;
+      font-family: $f-roboto-bold;
+      line-height: 3.5rem;
+      &.green-title {
+        color: $color-3;
+        font-size: 6.25rem;
+      }
+    }
+  }
+}
+
+.baner--2 {
+  &--margin-bottom-less {
+    margin-bottom: 0;
+  }
+  h2, h1 {
+    margin-bottom: 60px;
+  }
+  .btn--default-details {
+    margin-bottom: 0;
+  }
+}
+
+.intro-baner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  z-index: 600;
+  position: relative;
+  padding-bottom: 40px;
+  &--margin-bottom {
+    margin-bottom: -70px;
+  }
+  h1 {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $color-2;
+    font-size: 3.125rem;
+    font-family: $f-roboto-bold;
+  }
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3.125rem;
+    color: $color-3;
+    font-family: $f-shadows-into-light;
+  }
+  .image {
+    margin-top: 100px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .btn--down {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media screen and (min-width: 1900px) {
+  .baner, .intro-baner {
+      height: 1100px;
+  }
+}
